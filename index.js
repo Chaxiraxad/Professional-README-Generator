@@ -68,7 +68,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('README.md', data, (err) => {
+    fs.writeFile(fileName, data, (err) => {
         if (err) {
             console.error(err);
         } else {
@@ -85,6 +85,7 @@ function init() {
             // Use user feedback for... whatever!!
             console.log(answers);
             const markdown = generateMarkdown(answers)
+            writeToFile('./dist/README.md',markdown)
         });
 }
 
