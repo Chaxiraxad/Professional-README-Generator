@@ -11,23 +11,26 @@ const questions = [
         name: 'name',
         message: 'What is your project title?'
     },
+
     // Description
     {
         type: 'input',
         name: 'description',
         message: 'Please write your project description.'
     },
+    // Table of Contents
+
     // Installation guide
     {
         type: 'input',
-        name: '',
-        message: ''
+        name: 'instalationGuide',
+        message: 'Please add the instalation guide'
     },
     // Usage
     {
         type: 'input',
-        name: '',
-        message: ''
+        name: 'usage',
+        message: 'Please add the Usage'
     },
     // License (multiple choice)
     {
@@ -39,26 +42,26 @@ const questions = [
     // Contributing
     {
         type: 'input',
-        name: '',
-        message: ''
+        name: 'contributions',
+        message: 'Please add contributions'
     },
     // Questions
     {
         type: 'input',
-        name: '',
-        message: ''
+        name: 'questions',
+        message: 'Please add questions'
     },
     // GitHub username
     {
         type: 'input',
-        name: '',
-        message: ''
+        name: 'gitusername',
+        message: 'Please write your GitHub Username'
     },
     // email address
     {
         type: 'input',
-        name: '',
-        message: ''
+        name: 'email',
+        message: 'Please write your email'
     },
 
 ];
@@ -66,24 +69,23 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile('README.md', data, (err) => {
-if (err) {
-    console.err(err);
-    else {
-        console.log('success!')
-    }
-}
-    })
+        if (err) {
+            console.error(err);
+        } else {
+            console.log('success!');
+        }
+    });
 }
 
 // function to initialize program
 function init() {
     inquirer
-    .prompt(questions)
-    .then(answers => {
-      // Use user feedback for... whatever!!
-      console.log(answers);
-     const markdown = generateMarkdown(answers)
-    });
+        .prompt(questions)
+        .then(answers => {
+            // Use user feedback for... whatever!!
+            console.log(answers);
+            const markdown = generateMarkdown(answers)
+        });
 }
 
 // function call to initialize program
