@@ -85,7 +85,7 @@ function init() {
             // Use user feedback for... whatever!!
             console.log(answers);
             const markdown = generateMarkdown(answers)
-            writeToFile('./dist/README.md',markdown)
+            writeToFile('README.md',markdown)
         });
 }
 
