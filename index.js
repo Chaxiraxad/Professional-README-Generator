@@ -18,7 +18,6 @@ const questions = [
         name: 'description',
         message: 'Please write your project description.'
     },
-    // Table of Contents
 
     // Installation guide
     {
