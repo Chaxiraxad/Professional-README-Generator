@@ -27,10 +27,10 @@ ${data.contributions}
 ## Test
 ${data.test}
 ## Questions
-Please send an email if you have any questions:
+Please contact me by email if you have any questions:
 [${data.email}](email)
 
-Check my GitHub profile for further information.
+Check my GitHub profile to see my work:
 [https://github.com/${data.gitusername}](${data.gitusername})
 
 

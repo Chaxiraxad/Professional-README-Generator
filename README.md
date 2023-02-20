@@ -1,4 +1,4 @@
-# I like it
+# Awesome Project
 
 ## Description
 descrip
@@ -10,12 +10,13 @@ descrip
 4. [License](#license)
 5. [Contributions](#contributing)
 6. [Test](#test)
+6. [GitHub Username](#gitHub)
 7. [Questions](#questions)
-
+8. [Email](#email)
 
 ## Instalation Guide
 guide
-## Usag
+## Usage
 usage
 ## License
 MIT
@@ -24,10 +25,10 @@ contri
 ## Test
 test
 ## Questions
-Please send me an email if you have any questions:
+Please contact me by email if you have any questions:
 [chaxiraxad@gmail.com](email)
 
-Check my GitHub profile to see my work
+Check my GitHub profile to see my work:
 [https://github.com/chaxiraxad](chaxiraxad)
 
 
