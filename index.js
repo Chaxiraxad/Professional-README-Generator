@@ -45,12 +45,13 @@ const questions = [
         name: 'contributions',
         message: 'Please add contributions'
     },
-    // Questions
+    // Test
     {
         type: 'input',
-        name: 'questions',
-        message: 'Please add questions'
+        name: 'test',
+        message: 'Please add app test'
     },
+
     // GitHub username
     {
         type: 'input',
