@@ -7,14 +7,13 @@ ${data.description}
 
 ## Table of contents
 1. [Description](#description)
-2. [Instalation Guide](#instalation)
+2. [Instalation Guide](#instalation-guide)
 3. [Usage](#usage)
 4. [License](#license)
 5. [Contributions](#contributing)
 6. [Test](#test)
-6. [GitHub Username](#gitHub)
 7. [Questions](#questions)
-8. [Email](#email)
+
 
 ## Instalation Guide
 ${data.instalationGuide}
