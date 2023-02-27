@@ -1,33 +1,38 @@
-# Awesome Project
-
+# Module 11 Professional-README-Generator
 ## Description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Table of contents
-1. [Description](#description)
-2. [Instalation Guide](#instalation-guide)
-3. [Usage](#usage)
-4. [License](#license)
-5. [Contributions](#contributing)
-6. [Test](#test)
-7. [Questions](#questions)
+Command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. Review the Good README Guide as a reminder of everything that a high-quality, professional README should contain.
+
+## User Story
+
+As a developer, I want a README generator so that I can quickly create a professional README for a new project.
+
+## Installation
+GitHub repository: https://github.com/Chaxiraxad/Professional-README-Generator.git
 
 
-## Instalation Guide
- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Deployment
+ Project url: https://chaxiraxad.github.io/Professional-README-Generator/
+
+(ScreenShot) ![Module 11 Professional-README-Generator](./README.png)
+
 ## Usage
- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+N/A
+
+## Credits
+N/A
+
+
 ## License
-MIT
-## Contributing
- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-## Test
- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-## Questions
-Please contact me by email if you have any questions:
-[chaxiraxad@gmail.com](email)
-
-Check my GitHub profile to see my work:
-[https://github.com/chaxiraxad](chaxiraxad)
+Please refer to the LICENSE in the repository.
 
 
+## Features
+N/A
+
+
+## Tests
+N/A
+
+## Resources
+N/A
